@@ -1,35 +1,49 @@
-const quotes = [
+export const quotes = [
     "Over-diversification is a hedge for ignorance. - William O'Neil",
+
     "Plot out your mistakes on charts, study them, and write some additional rules in order to correct your mistakes and the actions that cost you money. - William O'Neil",
+
     "The consistency you seek is in your mind, not in the markets. - Mark Douglas",
+
     "What separates the “consistently great” athletes and performers from everyone else is their distinct lack of fear of making a mistake. - Mark Douglas",
+
     "No man ever reached to excellence in any one art or profession without having passed through the slow and painful process of study and preparation. - Mark Douglas",
+
     "Identify your problems, but give your power and energy to solutions. - Tony Robbins",
+
     "A real decision is measured by the fact that you’ve taken a new action. If there’s no action, you haven’t truly decided. - Tony Robbins",
+
     "One reason so few of us achieve what we truly want is that we never direct our focus; we never concentrate our power. Most people dabble their way through life, never deciding to master anything in particular. - Tony Robbins",
+
     "Create a vision and never let the environment, other people’s beliefs, or the limits of what has been done in the past shape your decisions. - Tony Robbins",
+
     "It’s what you practice in private that you will be rewarded for in public. - Tony Robbins",
+
     "Where focus goes, energy flows. - Tony Robbins",
+
     "It’s not what we do once in a while that shapes our lives, but what we do consistently. - Tony Robbins",
+
     "Most people have no idea of the giant capacity we can immediately command when we focus all of our resources on mastering a single area of our lives. - Tony Robbins",
+
     "We only get to play this game one time. We have one life. - Gary Vee",
+
     "Do the work. Everyone wants to be successful, but nobody wants to do the work. - Gary Vee",
+
     "The biggest asset in the world is your mindset. - Gary Vee",
+
     "If 1 out of 15 of your ideas succeed, that’s better than 99% of your friends who never start a single idea. - Gary Vee",
+
     "The unexamined life is not worth living. - Socrates",
+
     "The easiest and noblest way is not to be crushing others, but to be improving yourselves. - Socrates",
+
     "Strong minds discuss ideas, average minds discuss events, weak minds discuss people. - Socrates",
+
     "Smart people learn from everything and everyone. Average people from their experiences. Stupid people already have all the answers. - Socrates",
+
     "To be uncertain is to be uncomfortable, but to be certain is to be ridiculous. - Socrates",
+
     "I call myself a peaceful warrior because the battles we fight are on the inside. - Socrates",
+
     "What screws us up the most in life is the picture in our heads of what it’s supposed to be. - Socrates"
 ];
-
-
-function generator() {
-    let randomIndex = Math.floor(Math.random() * quotes.length);
-    let randomQuote = quotes[randomIndex];
-    let quoteElement = document.querySelector('.random-quote');
-    quoteElement.innerText = randomQuote;
-    
-}
