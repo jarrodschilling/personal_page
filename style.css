@@ -27,6 +27,10 @@ NAV-BAR
     padding-left: 7%;
 }
 
+.quotes {
+    text-align: center;
+}
+
 .nav-links {
     padding-right: 7%;
 }
@@ -39,7 +43,7 @@ NAV-BAR
 }
 
 /* --------------------------------------------------
-Body
+Body - INDEX
 -------------------------------------------------- */
 body {
     background-color: #e0cba8a3;
@@ -93,3 +97,36 @@ h2 {
     height: 30px;
 }
 
+/* --------------------------------------------------
+Body - RESUME
+-------------------------------------------------- */
+
+.resume {
+    color:#1D263B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    /* border: 2px solid black; */
+    
+}
+
+.resume ul {
+    list-style: none;
+}
+
+.resume h1, h2 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.resume h1 {
+    font-size: 40px;
+}
+
+.resume li {
+    margin: 3px;
+}
+.tech-skills {
+    display: flex;
+}
